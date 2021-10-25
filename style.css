@@ -13,7 +13,7 @@ p#Intro{
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
-    animation: move 120s linear;
+    animation: move 120s linear infinite;
 }
 
 @keyframes move {
@@ -44,3 +44,4 @@ p#Doja{
     margin-left: auto;
     margin-right: auto;
 }
+
